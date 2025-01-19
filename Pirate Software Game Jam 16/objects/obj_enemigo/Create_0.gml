@@ -6,6 +6,7 @@ player_detectado = false;
 velocidad = 0;
 ultima_x = x;
 ultima_y = y;
+alarma_activa = 0;
 
 // Inherit the parent event
 event_inherited();

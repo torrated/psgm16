@@ -6,7 +6,7 @@ if (collision_circle(x, y, distancia_vision, obj_player, false, false))
     if !(collision_line(x, y, obj_player.x, obj_player.y,obj_colisiones,false,false))
     {
         player_detectado = true;
-        velocidad = velocidad_correr;
+        //velocidad = velocidad_correr;
     }
 }
 else {//detectar al jugador en el radio de oido
@@ -33,11 +33,11 @@ if (player_detectado)
     y_to = (obj_player.y - y)/2;
     ultima_x = obj_player.x;
     ultima_y = obj_player.y;
+    if !(alarma_activa)
+        alarm[0] = 1;
 }
 else
 {
-    //x_to = ultima_x;
-    //y_to = ultima_y;
     x_to = (ultima_x - x) / 2;
     y_to = (ultima_y - y) / 2;
 }

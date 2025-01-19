@@ -45,5 +45,6 @@ if (instance_exists(obj_enemigo))
         draw_text(32,_space_i,"ultima_y:"+string(obj_enemigo.ultima_y));_space_i += _space;
         draw_text(32,_space_i,"x_to:"+string(obj_enemigo.x_to));_space_i += _space;
         draw_text(32,_space_i,"y_to:"+string(obj_enemigo.y_to));_space_i += _space;
+        draw_text(32,_space_i,"vel enemigo:"+string(obj_enemigo.velocidad));_space_i += _space;
     }
 }
