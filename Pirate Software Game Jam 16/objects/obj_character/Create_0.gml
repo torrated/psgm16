@@ -6,3 +6,4 @@ velocidad = 0;
 corriendo = 0;
 x_to = 0;
 y_to = 0;
+image_speed = 0;

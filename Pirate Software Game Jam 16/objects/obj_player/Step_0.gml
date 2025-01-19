@@ -15,6 +15,7 @@ if (instance_exists(obj_controles))
         corriendo = 0;
     }
 }
+
+
 // Inherit the parent event
 event_inherited();
-

@@ -18,3 +18,16 @@ if (_len <> 0)
     
     move_and_collide(x_to,y_to,[ts_pared,obj_colisiones],velocidad * 2);
 }
+
+// actualiza los sprites en funcion de la direccion
+if ((x_to <> 0) || (y_to <> 0))
+{
+    if ((x_to > 0) && (y_to == 0)) image_index = 0;
+    if ((x_to > 0) && (y_to < 0)) image_index = 1;
+    if ((x_to == 0) && (y_to < 0)) image_index = 2;
+    if ((x_to < 0) && (y_to < 0)) image_index = 3;
+    if ((x_to < 0) && (y_to == 0)) image_index = 4;
+    if ((x_to < 0) && (y_to > 0)) image_index = 5;
+    if ((x_to == 0) && (y_to > 0)) image_index = 6;
+    if ((x_to > 0) && (y_to > 0)) image_index = 7;
+}
