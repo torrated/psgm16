@@ -1,7 +1,7 @@
 /// @description 
 
 var _space = 16;
-var _space_i = _space;
+var _space_i = _space * 2;
 
 if (instance_exists(obj_player))
 {
@@ -9,6 +9,11 @@ if (instance_exists(obj_player))
     var _vel_y = obj_player.y - obj_player.yprevious;
     draw_text(32,_space_i,"Vel x:"+string(_vel_x));_space_i += _space;
     draw_text(32,_space_i,"Vel y:"+string(_vel_y));_space_i += _space;
+    
+    draw_text(32,_space_i,"x_to:"+string(obj_player.x_to));_space_i += _space;
+    draw_text(32,_space_i,"y_to:"+string(obj_player.y_to));_space_i += _space;
+    
+    //draw_text(32,_space_i,"lengthdir_x():"+string(lengthdir_x()));_space_i += _space;
 }
 if (instance_exists(obj_controles))
 {
