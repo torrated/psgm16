@@ -1,6 +1,6 @@
 /// @description 
 
-var _len = 0;//sqrt(sqr(x_to) + sqr(y_to));
+var _len = 0;
 var _sqr_x = 0;
 var _sqr_y = 0;
 
