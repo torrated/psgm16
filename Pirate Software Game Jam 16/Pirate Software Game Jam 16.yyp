@@ -35,6 +35,7 @@
   },
   "name":"Pirate Software Game Jam 16",
   "resources":[
+    {"id":{"name":"obj_character","path":"objects/obj_character/obj_character.yy",},},
     {"id":{"name":"obj_colisiones","path":"objects/obj_colisiones/obj_colisiones.yy",},},
     {"id":{"name":"obj_controles","path":"objects/obj_controles/obj_controles.yy",},},
     {"id":{"name":"obj_debug","path":"objects/obj_debug/obj_debug.yy",},},

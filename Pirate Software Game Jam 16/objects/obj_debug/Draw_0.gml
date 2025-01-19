@@ -12,9 +12,8 @@ if (instance_exists(obj_player))
     
     draw_text(32,_space_i,"x_to:"+string(obj_player.x_to));_space_i += _space;
     draw_text(32,_space_i,"y_to:"+string(obj_player.y_to));_space_i += _space;
-    
-    //draw_text(32,_space_i,"lengthdir_x():"+string(lengthdir_x()));_space_i += _space;
 }
+
 if (instance_exists(obj_controles))
 {
     draw_text(32,_space_i,"move_x:"+string(obj_controles.move_x));_space_i += _space;
