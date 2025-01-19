@@ -1,10 +1,5 @@
 /// @description Movimiento del player
 
-var _x = keyboard_check(vk_right)-keyboard_check(vk_left);
-var _y = keyboard_check(vk_down)-keyboard_check(vk_up);
-
-if (instance_exists(obj_player))
-{
-    obj_player.x += _x*obj_player.velocidad;
-    obj_player.y += _y*obj_player.velocidad;
-}
+move_x = keyboard_check(ord("D"))-keyboard_check(ord("A"));
+move_y = keyboard_check(ord("S"))-keyboard_check(ord("W"));
+correr = keyboard_check(vk_shift);

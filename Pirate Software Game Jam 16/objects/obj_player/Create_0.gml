@@ -1,3 +1,0 @@
-/// @description 
-
-velocidad = 3;
