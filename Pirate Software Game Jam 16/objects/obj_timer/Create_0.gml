@@ -1,6 +1,6 @@
 /// @description 
 
-tiempo_inicial = 10;
+tiempo_inicial = 30;
 tiempo = tiempo_inicial;
 alarm[0] = 1;
 parpadeo_iniciado = false;

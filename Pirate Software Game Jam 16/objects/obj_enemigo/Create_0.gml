@@ -10,3 +10,6 @@ alarma_activa = 0;
 
 // Inherit the parent event
 event_inherited();
+
+velocidad_caminar = 1.5;
+velocidad_correr = 3;

@@ -6,7 +6,6 @@ if (collision_circle(x, y, distancia_vision, obj_player, false, false))
     if !(collision_line(x, y, obj_player.x, obj_player.y,obj_colisiones,false,false))
     {
         player_detectado = true;
-        //velocidad = velocidad_correr;
     }
 }
 else {//detectar al jugador en el radio de oido
