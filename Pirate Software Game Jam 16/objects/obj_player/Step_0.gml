@@ -1,6 +1,6 @@
 /// @description 
 
-if (instance_exists(obj_controles))
+if ((instance_exists(obj_controles)) && puede_moverse)
 {
     x_to = obj_controles.move_x;
     y_to = obj_controles.move_y;
@@ -14,6 +14,12 @@ if (instance_exists(obj_controles))
         velocidad = velocidad_caminar;
         corriendo = 0;
     }
+}
+
+if !(puede_moverse)
+{
+	x_to = 0;
+	y_to = 0;
 }
 
 
