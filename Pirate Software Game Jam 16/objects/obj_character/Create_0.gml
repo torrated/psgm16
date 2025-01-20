@@ -7,3 +7,4 @@ corriendo = 0;
 x_to = 0;
 y_to = 0;
 image_speed = 0;
+puede_moverse = true;
