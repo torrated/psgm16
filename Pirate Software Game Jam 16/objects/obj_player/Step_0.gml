@@ -14,6 +14,11 @@ if ((instance_exists(obj_controles)) && puede_moverse)
         velocidad = velocidad_caminar;
         corriendo = 0;
     }
+	
+	if (obj_controles.atacar)
+		instance_create_layer(x,y,"Personaje",obj_slash,{image_xscale:obj_player.image_xscale,
+														 image_yscale:obj_player.image_yscale,
+														 image_angle:obj_player.image_index*45*sign(obj_player.image_xscale)*sign(obj_player.image_yscale)});
 }
 
 if !(puede_moverse)
