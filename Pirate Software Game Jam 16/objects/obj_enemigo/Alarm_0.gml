@@ -1,5 +1,5 @@
-/// @description 
-//
+/// @description Aumenta la velocidad cuando ve al jugador
+
 alarma_activa = 1;
 if (velocidad < velocidad_correr)
 {
