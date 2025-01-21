@@ -48,6 +48,7 @@
     {"id":{"name":"obj_textos","path":"objects/obj_textos/obj_textos.yy",},},
     {"id":{"name":"obj_timer","path":"objects/obj_timer/obj_timer.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"prc_game_over","path":"scripts/prc_game_over/prc_game_over.yy",},},
     {"id":{"name":"spr_colisiones","path":"sprites/spr_colisiones/spr_colisiones.yy",},},
     {"id":{"name":"spr_enemigo","path":"sprites/spr_enemigo/spr_enemigo.yy",},},
     {"id":{"name":"spr_explosion","path":"sprites/spr_explosion/spr_explosion.yy",},},
