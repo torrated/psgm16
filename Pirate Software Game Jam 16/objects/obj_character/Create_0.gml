@@ -8,6 +8,6 @@ x_to = 0;
 y_to = 0;
 image_speed = 0;
 puede_moverse = true;
-salud_inicial = 1;
+salud_inicial = 5;
 salud = salud_inicial;
 vidas = 1;
