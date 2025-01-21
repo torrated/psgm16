@@ -1,2 +1,2 @@
 /// @description
-debug = false;
+debug = true;
