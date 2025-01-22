@@ -1,5 +1,4 @@
 /// @description 
-if (debug)
 {
    if (instance_exists(obj_enemigo))
    {
