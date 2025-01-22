@@ -1,2 +1,0 @@
-/// @description
-debug = true;

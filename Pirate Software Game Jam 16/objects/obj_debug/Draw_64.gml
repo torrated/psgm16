@@ -1,5 +1,5 @@
 /// @description 
-if (debug)
+if (instance_exists(obj_controles) && (obj_controles.debug))
 {
     var _space = 16;
     var _space_i = _space * 2;

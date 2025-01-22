@@ -21,11 +21,11 @@ if ((instance_exists(obj_controles)) && puede_moverse)
 														 image_angle:obj_player.image_index*45*sign(obj_player.image_xscale)*sign(obj_player.image_yscale)});
 }
 
-if !(puede_moverse)
-{
-	x_to = 0;
-	y_to = 0;
-}
+//if !(puede_moverse)
+//{
+//	x_to = 0;
+//	y_to = 0;
+//}
 
 
 // Inherit the parent event
