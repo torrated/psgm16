@@ -1,14 +1,17 @@
 /// @description 
 if (instance_exists(obj_controles) && (obj_controles.debug))
 {
-    var _space = 16;
+    var _space = 100;
     var _space_i = _space * 2;
 
 	var _color = draw_get_color();
+	
+	draw_set_color(c_white)
+	draw_text(32,_space_i,"niebla: "+string(obj_controles.niebla));_space_i += _space;
+	
 	if (instance_exists(obj_player))
 	{
-		//draw_set_color(c_white)
-		//draw_text(32,_space_i,"vidas: "+string(obj_player.vidas));_space_i += _space;
+		
 		//draw_text(32,_space_i,"salud: "+string(obj_player.salud));_space_i += _space;
 	}
 	if (instance_exists(obj_timer))

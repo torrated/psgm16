@@ -6,3 +6,5 @@ correr = 0;
 atacar = 0;
 debug = 0;
 toggle_debug = 0;
+niebla = 1;
+toggle_niebla = 0;
