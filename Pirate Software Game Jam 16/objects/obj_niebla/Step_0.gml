@@ -1,5 +1,5 @@
 /// @description 
-
+//////// DEBUG
 if (instance_exists(obj_controles))
 {
 	if (obj_controles.niebla)
@@ -7,7 +7,9 @@ if (instance_exists(obj_controles))
 	else
 		image_xscale = 0;
 }
-	
+/////////
+
+
 if (instance_exists(obj_player))
 {
     x = obj_player.x;
