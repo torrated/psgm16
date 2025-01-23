@@ -12,7 +12,7 @@ if (puede_moverse)
 	if (_sqr_x + _sqr_y <> 0)
 	    _len = sqrt(_sqr_x + _sqr_y);
 
-	if (_len <> 0)
+	if (_len >= 1)
 	{
 	    x_to = (x_to/_len) * velocidad;
 	    y_to = (y_to/_len) * velocidad;
