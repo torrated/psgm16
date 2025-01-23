@@ -10,7 +10,7 @@ var _len = sqrt(sqr(x-knockback_x) + sqr(y-knockback_y));
 x_to = ((x-knockback_x)/_len) ;
 y_to = ((y-knockback_y)/_len) ;
 
-move_and_collide(x_to,y_to,obj_colisiones,1);
+move_and_collide(x_to,y_to,[obj_colisiones,obj_enemigo],1);
 	
 knockback_actual += 1
 

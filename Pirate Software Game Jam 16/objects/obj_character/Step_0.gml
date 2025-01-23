@@ -18,7 +18,7 @@ if ((estado <> ESTADOS_POSIBLES.MUERTO) && (puede_moverse))
 	    x_to = (x_to/_len) * velocidad;
 	    y_to = (y_to/_len) * velocidad;
     
-	    move_and_collide(x_to,y_to,obj_colisiones,velocidad * 2);
+	    move_and_collide(x_to,y_to,[obj_colisiones,obj_enemigo],velocidad * 2);
 	}
 
 	// actualiza los sprites en funcion de la direccion
