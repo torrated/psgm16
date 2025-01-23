@@ -20,9 +20,7 @@ if (instance_exists(obj_controles) && (obj_controles.debug))
 	               draw_set_color(c_blue);
 				   draw_line(_enemigo.x, _enemigo.y, obj_player.x, obj_player.y); //linea de vision
 			   }
-           	draw_text(_enemigo.x, _enemigo.y-10, "knockback_x:"+string(_enemigo.knockback_x))
-			draw_text(_enemigo.x, _enemigo.y-20, "knockback_y:"+string(_enemigo.knockback_y))
-			draw_text(_enemigo.x, _enemigo.y-30, "knockback_actual:"+string(_enemigo.knockback_actual))
+           	draw_text(_enemigo.x, _enemigo.y-10, "puntos:"+string(_enemigo.puntos))
 
            draw_set_color(_color);
        }

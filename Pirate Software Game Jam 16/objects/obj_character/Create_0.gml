@@ -16,3 +16,11 @@ knockback_actual = 0;
 knockback_x = 0;
 knockback_y = 0;
 golpeado = false;
+puntos = 0;
+
+enum ESTADOS_POSIBLES
+{
+    NORMAL,
+	MUERTO
+};
+estado = ESTADOS_POSIBLES.NORMAL;
