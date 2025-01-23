@@ -7,6 +7,8 @@ if (instance_exists(obj_controles) && (obj_controles.debug))
 	var _color = draw_get_color();
 	
 	draw_set_color(c_white)
+	draw_text(32,_space_i,"niebla: "+string(obj_controles.niebla));_space_i += _space;
+	
 	if (instance_exists(obj_player))
 	{
 		
