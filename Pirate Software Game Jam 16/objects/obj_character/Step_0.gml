@@ -1,5 +1,6 @@
 /// @description 
-if (puede_moverse)
+
+if (estado <> ESTADOS_POSIBLES.MUERTO)
 {
 	var _len = 0;
 	var _sqr_x = 0;

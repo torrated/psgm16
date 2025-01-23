@@ -20,6 +20,7 @@ if (instance_exists(obj_player))
 	draw_set_color(c_white)
 	draw_text(32,32,"vidas: "+string(obj_player.vidas)); 
 	draw_text(32,64,"salud: "+string(obj_player.salud)); 
+	draw_text(32,96,"puntos: "+string(obj_player.puntos)); 
 }
 
 draw_set_font(_font);

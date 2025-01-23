@@ -13,3 +13,4 @@ event_inherited();
 
 velocidad_caminar = 1.5;
 velocidad_correr = 3;
+puntos = 1;
