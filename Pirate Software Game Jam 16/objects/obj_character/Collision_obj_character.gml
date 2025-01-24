@@ -12,6 +12,7 @@ if (object_index <> other.object_index)
 			{
 				x = xstart;
 				y = ystart;
+				show_message("You failed!")
 				room_restart();
 			}
 			else
