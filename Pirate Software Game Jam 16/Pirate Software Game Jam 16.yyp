@@ -61,6 +61,7 @@
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"spr_slash","path":"sprites/spr_slash/spr_slash.yy",},},
     {"id":{"name":"spr_version","path":"sprites/spr_version/spr_version.yy",},},
+    {"id":{"name":"spr_vidas","path":"sprites/spr_vidas/spr_vidas.yy",},},
     {"id":{"name":"ts_pared","path":"tilesets/ts_pared/ts_pared.yy",},},
   ],
   "resourceType":"GMProject",
