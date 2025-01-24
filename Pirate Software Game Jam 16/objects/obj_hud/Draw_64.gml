@@ -23,6 +23,10 @@ if (instance_exists(obj_player))
 	if (instance_exists(obj_juego))
 	{
 		draw_text(32,96,"score: " + string(obj_player.puntos));
+		if (obj_player.puntos < obj_juego.puntos_por_nivel[$ room_get_name(room)])
+			draw_set_color(c_red);
+		else
+			draw_set_color(c_green);
 		draw_text(32,128,"next level: " + string(obj_juego.puntos_por_nivel[$ room_get_name(room)]));
 	}
 }
