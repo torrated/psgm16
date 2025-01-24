@@ -18,9 +18,13 @@ if (instance_exists(obj_player))
 {
 	draw_set_font(_font);
 	draw_set_color(c_white)
-	draw_text(32,32,"vidas: "+string(obj_player.vidas)); 
-	draw_text(32,64,"salud: "+string(obj_player.salud)); 
-	draw_text(32,96,"puntos: "+string(obj_player.puntos)); 
+	draw_text(32,32,"lives: "+string(obj_player.vidas)); 
+	draw_text(32,64,"health: "+string(obj_player.salud)); 
+	if (instance_exists(obj_juego))
+	{
+		draw_text(32,96,"score: " + string(obj_player.puntos));
+		draw_text(32,128,"next level: " + string(obj_juego.puntos_por_nivel[$ room_get_name(room)]));
+	}
 }
 
 draw_set_font(_font);
