@@ -15,7 +15,7 @@ if (instance_exists(obj_controles) && puede_moverse)
         corriendo = 0;
     }
 	
-	if (obj_controles.atacar)
+	if ((obj_controles.atacar) && (estado <> ESTADOS_POSIBLES.MUERTO))
 		instance_create_layer(x,y,"Personaje",obj_slash,{image_xscale:obj_player.image_xscale,
 														 image_yscale:obj_player.image_yscale,
 														 image_angle:obj_player.image_index*45*sign(obj_player.image_xscale)*sign(obj_player.image_yscale)});
