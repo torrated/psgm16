@@ -1,4 +1,4 @@
-/// @description 
+/// @description Parpadeo de los numeros
 if (tiempo > 0)
 {
     if (color == c_white)
