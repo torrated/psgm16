@@ -1,4 +1,4 @@
-/// @description comprueba cuándo activar las instancias y se destruye
+/// @description Pinta las instancias, comprueba cuándo activarlas y cuándo destruirse.
 
 if (pause_i == max_pause)
 {
