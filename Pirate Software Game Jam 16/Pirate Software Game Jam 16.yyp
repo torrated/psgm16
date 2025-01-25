@@ -42,6 +42,7 @@
     {"id":{"name":"obj_debug","path":"objects/obj_debug/obj_debug.yy",},},
     {"id":{"name":"obj_enemigo","path":"objects/obj_enemigo/obj_enemigo.yy",},},
     {"id":{"name":"obj_explosion","path":"objects/obj_explosion/obj_explosion.yy",},},
+    {"id":{"name":"obj_hit_stop","path":"objects/obj_hit_stop/obj_hit_stop.yy",},},
     {"id":{"name":"obj_hit","path":"objects/obj_hit/obj_hit.yy",},},
     {"id":{"name":"obj_hud","path":"objects/obj_hud/obj_hud.yy",},},
     {"id":{"name":"obj_inicio","path":"objects/obj_inicio/obj_inicio.yy",},},
