@@ -26,3 +26,9 @@ if (instance_exists(obj_controles) && (obj_controles.debug))
        }
    }
 }
+
+if (instance_exists(obj_player))
+{
+	draw_text(obj_player.x,obj_player.y-10,"caminar:"+string(obj_player.velocidad_caminar));
+	draw_text(obj_player.x,obj_player.y-20,"correr:"+string(obj_player.velocidad_correr));
+}
