@@ -15,7 +15,8 @@ if (instance_exists(obj_controles) && (obj_controles.debug))
            draw_circle(_enemigo.x, _enemigo.y, _enemigo.distancia_oido, true);
 		   
 		   if (instance_exists(obj_player))
-	           if !(collision_line(_enemigo.x, _enemigo.y, obj_player.x, obj_player.y,obj_colisiones,false,false))
+	           if (!(collision_line(_enemigo.x, _enemigo.y, obj_player.x, obj_player.y,obj_colisiones,false,false))
+					&& _enemigo.puede_ver)
 			   {
 	               draw_set_color(c_blue);
 				   draw_line(_enemigo.x, _enemigo.y, obj_player.x, obj_player.y); //linea de vision

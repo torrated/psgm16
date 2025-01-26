@@ -3,7 +3,8 @@
 //detectar al jugador en el radio de vision
 if (collision_circle(x, y, distancia_vision, obj_player, false, false))
 {
-    if !(collision_line(x, y, obj_player.x, obj_player.y,obj_colisiones,false,false))
+    if (!(collision_line(x, y, obj_player.x, obj_player.y,obj_colisiones,false,false))
+	&& puede_ver)
     {
         player_detectado = true;
     }
