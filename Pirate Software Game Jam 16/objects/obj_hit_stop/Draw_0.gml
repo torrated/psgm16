@@ -5,7 +5,7 @@ if (pause_i == max_pause)
 	instance_activate_all();
 	for (var _i = 0; _i < instance_number(obj_enemigo); _i++)
 	{
-		if (instance_find(obj_enemigo,_i).salud == 0)
+		if (instance_find(obj_enemigo,_i).salud <= 0)
 			instance_destroy(instance_find(obj_enemigo,_i));
 	}
 	instance_destroy();
