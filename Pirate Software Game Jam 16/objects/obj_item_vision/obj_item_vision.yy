@@ -1,6 +1,6 @@
 {
   "$GMObject":"",
-  "%Name":"obj_item_damage",
+  "%Name":"obj_item_vision",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -8,7 +8,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_item_damage",
+  "name":"obj_item_vision",
   "overriddenProperties":[],
   "parent":{
     "name":"items",
@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_damage",
-    "path":"sprites/spr_damage/spr_damage.yy",
+    "name":"spr_vision",
+    "path":"sprites/spr_vision/spr_vision.yy",
   },
   "spriteMaskId":null,
   "visible":true,
