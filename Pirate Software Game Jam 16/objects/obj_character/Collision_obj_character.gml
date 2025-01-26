@@ -4,7 +4,7 @@ if (object_index <> other.object_index)
 {
 	if (object_index == obj_player)
 	{
-		salud -= 1;
+		salud -= other.damage;
 		if (salud <= 0)
 		{
 			vidas -= 1;

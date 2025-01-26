@@ -17,6 +17,7 @@ knockback_x = 0;
 knockback_y = 0;
 golpeado = false;
 puntos = 0;
+damage = 1;
 
 enum ESTADOS_POSIBLES
 {
