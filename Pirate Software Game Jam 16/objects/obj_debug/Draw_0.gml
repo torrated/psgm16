@@ -20,7 +20,7 @@ if (instance_exists(obj_controles) && (obj_controles.debug))
 	               draw_set_color(c_blue);
 				   draw_line(_enemigo.x, _enemigo.y, obj_player.x, obj_player.y); //linea de vision
 			   }
-           	draw_text(_enemigo.x, _enemigo.y-10, "puntos:"+string(_enemigo.puntos))
+           	draw_text(_enemigo.x, _enemigo.y-10, "salud:"+string(_enemigo.salud))
 
            draw_set_color(_color);
        }
