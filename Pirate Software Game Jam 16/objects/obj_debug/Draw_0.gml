@@ -26,10 +26,9 @@ if (instance_exists(obj_controles) && (obj_controles.debug))
            draw_set_color(_color);
        }
    }
-}
-
-if (instance_exists(obj_player))
-{
-	draw_text(obj_player.x,obj_player.y-10,"damage:"+string(obj_player.damage));
-	//draw_text(obj_player.x,obj_player.y-20,"correr:"+string(obj_player.velocidad_correr));
+   
+	if (instance_exists(obj_player))
+	{
+		draw_text(obj_player.x,obj_player.y-10,"damage:"+string(obj_player.damage));
+	}
 }
