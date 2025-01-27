@@ -32,6 +32,7 @@
   "name":"Pirate Software Game Jam 16",
   "resources":[
     {"id":{"name":"Note1","path":"notes/Note1/Note1.yy",},},
+    {"id":{"name":"obj_caja","path":"objects/obj_caja/obj_caja.yy",},},
     {"id":{"name":"obj_character","path":"objects/obj_character/obj_character.yy",},},
     {"id":{"name":"obj_colisiones","path":"objects/obj_colisiones/obj_colisiones.yy",},},
     {"id":{"name":"obj_controles","path":"objects/obj_controles/obj_controles.yy",},},
@@ -57,6 +58,7 @@
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"id":{"name":"prc_game_over","path":"scripts/prc_game_over/prc_game_over.yy",},},
+    {"id":{"name":"spr_caja","path":"sprites/spr_caja/spr_caja.yy",},},
     {"id":{"name":"spr_colisiones","path":"sprites/spr_colisiones/spr_colisiones.yy",},},
     {"id":{"name":"spr_damage","path":"sprites/spr_damage/spr_damage.yy",},},
     {"id":{"name":"spr_enemigo","path":"sprites/spr_enemigo/spr_enemigo.yy",},},

@@ -9,3 +9,5 @@ if ((object_index == obj_player) && (instance_exists(obj_inicio)))
 	x_to = 0;
 	y_to = 0;
 }
+velocidad_caminar = velocidad_caminar_inicial;
+velocidad_correr = velocidad_caminar * 2;
