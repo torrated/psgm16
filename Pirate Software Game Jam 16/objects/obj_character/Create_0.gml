@@ -1,6 +1,7 @@
 /// @description 
 
-velocidad_caminar = 2.5;
+velocidad_caminar_inicial = 2.5;
+velocidad_caminar = velocidad_caminar_inicial;
 velocidad_correr = velocidad_caminar * 2;
 velocidad = 0;
 corriendo = 0;
