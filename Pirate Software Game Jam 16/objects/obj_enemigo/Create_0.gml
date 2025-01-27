@@ -13,7 +13,8 @@ alarma_activa = 0;
 // Inherit the parent event
 event_inherited();
 
-velocidad_caminar = 1.5;
-velocidad_correr = 3;
+velocidad_inicial = 1.5
+velocidad_caminar = velocidad_inicial;
+velocidad_correr = velocidad_caminar * 2;
 puntos = 1;
 puede_ver = true;
