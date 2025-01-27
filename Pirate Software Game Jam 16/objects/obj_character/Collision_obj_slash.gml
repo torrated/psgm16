@@ -6,7 +6,6 @@ if ((object_index <> obj_player) && !(golpeado))
 	golpeado = true;
 	
 	var _hit = instance_create_layer(x,y,"Explosion",obj_hit);
-	//_hit.character = object_index;
 	_hit.character = id;
 	
 	if (salud <= 0)
