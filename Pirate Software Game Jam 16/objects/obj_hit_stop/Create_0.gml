@@ -6,7 +6,6 @@ i = 0;
 for (i = 0; i < instance_count; i++)
 {
 		instancias[i] = instance_id[i];
-	
 }
 
 instancias_desactivadas = i;

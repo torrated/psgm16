@@ -28,4 +28,5 @@ else
 							instancias[_i].image_alpha
 							);
 	}
+	draw_sprite(spr_niebla,0,obj_niebla.x,obj_niebla.y);
 }
