@@ -71,6 +71,7 @@
     {"id":{"name":"spr_reloj","path":"sprites/spr_reloj/spr_reloj.yy",},},
     {"id":{"name":"spr_slash","path":"sprites/spr_slash/spr_slash.yy",},},
     {"id":{"name":"spr_sordera","path":"sprites/spr_sordera/spr_sordera.yy",},},
+    {"id":{"name":"spr_version_1","path":"sprites/spr_version_1/spr_version_1.yy",},},
     {"id":{"name":"spr_version","path":"sprites/spr_version/spr_version.yy",},},
     {"id":{"name":"spr_vidas","path":"sprites/spr_vidas/spr_vidas.yy",},},
     {"id":{"name":"spr_vision","path":"sprites/spr_vision/spr_vision.yy",},},
