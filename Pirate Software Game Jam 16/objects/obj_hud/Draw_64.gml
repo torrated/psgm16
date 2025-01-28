@@ -15,7 +15,7 @@ if (instance_exists(obj_timer))
 }
 
 // salud y vidas
-if (instance_exists(obj_player))
+if ((instance_exists(obj_player)) && (room <> RoomChangeLevel))
 {
 	draw_set_font(_font);
 	draw_set_color(c_white)
