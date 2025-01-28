@@ -12,6 +12,8 @@ if (instance_exists(obj_timer))
     draw_set_font(global.font_timer);
     draw_set_color(obj_timer.color);
     draw_text(475,75,string(obj_timer.tiempo));
+	draw_set_font(_font);
+	draw_set_color(_color);
 }
 
 // salud y vidas
