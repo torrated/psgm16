@@ -29,6 +29,6 @@ if (instance_exists(obj_controles) && (obj_controles.debug))
    
 	if (instance_exists(obj_player))
 	{
-		draw_text(obj_player.x,obj_player.y-10,"damage:"+string(obj_player.damage));
+		draw_text(obj_player.x,obj_player.y-10,"salud:"+string(obj_player.salud));
 	}
 }
