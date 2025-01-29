@@ -21,11 +21,6 @@ if (puede_moverse)
 	}
 
 	// actualiza los sprites en funcion de la direccion
-	if ((x_to <> 0) || (y_to <> 0))
-	{
-		if (y_to == 0) { image_index = 0; image_xscale = sign(x_to); }
-	    if ((x_to <> 0) && (y_to <> 0)) { image_index = 1; image_xscale = sign(x_to); image_yscale = -sign(y_to);}
-	    if (x_to == 0) { image_index = 2; image_yscale = -sign(y_to); }
-
-	}
+	if (x_to <> 0)
+		image_xscale = sign(x_to);
 }
