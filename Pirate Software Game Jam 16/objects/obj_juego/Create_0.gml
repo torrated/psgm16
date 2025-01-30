@@ -2,7 +2,7 @@
 
 //puntos_por_nivel = {};
 puntos_por_nivel = {
-	"Level1" : 0,//DEBUG
+	"Level1" : 1,
 	"Level2" : 2
 };
 

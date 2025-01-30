@@ -7,6 +7,7 @@ atacar = keyboard_check_pressed(vk_space);
 toggle_debug = keyboard_check(vk_alt) && keyboard_check(vk_shift) && keyboard_check_pressed(ord("D"));
 toggle_niebla= keyboard_check(vk_alt) && keyboard_check(vk_shift) && keyboard_check_pressed(ord("N"));
 
+if (1==2) {
 ///////// DEBUG
 if (toggle_debug)
 	debug = !debug;
@@ -23,6 +24,7 @@ if keyboard_check(vk_alt) && keyboard_check(vk_shift) && keyboard_check_pressed(
 if keyboard_check(vk_alt) && keyboard_check(vk_shift) && keyboard_check_pressed(ord("0"))
 	if (instance_exists(obj_timer))
 		obj_timer.tiempo -= 5;
+}
 /////////
 
 if (keyboard_check(vk_escape))
