@@ -1,8 +1,8 @@
 /// @description 
 
-distancia_vision = sprite_width * 3;
+distancia_vision = sprite_width * 2;
 
-distancia_oido_inicial = sprite_width * 9;
+distancia_oido_inicial = sprite_width * 4;
 distancia_oido = distancia_oido_inicial;
 player_detectado = false;
 velocidad = 0;
