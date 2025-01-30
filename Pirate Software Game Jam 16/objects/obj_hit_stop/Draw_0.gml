@@ -28,5 +28,7 @@ else
 							instancias[_i].image_alpha
 							);
 	}
-	draw_sprite(spr_niebla,0,obj_niebla.x,obj_niebla.y);
+	if (instance_exists(obj_niebla))
+		draw_sprite(spr_niebla,0,x_niebla,y_niebla);
+
 }
