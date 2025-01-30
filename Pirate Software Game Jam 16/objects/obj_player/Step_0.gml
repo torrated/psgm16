@@ -24,17 +24,10 @@ if ((instance_exists(obj_controles)) && puede_moverse)
 	}
 		
 	if (obj_controles.atacar)
-		instance_create_layer(x,y,"Personaje",obj_slash,{image_xscale:obj_player.image_xscale,
-														 image_yscale:obj_player.image_yscale,
-														 image_angle:obj_player.image_index*45*sign(obj_player.image_xscale)*sign(obj_player.image_yscale)});
+	{
+		var _slash = instance_create_layer(x,y,"Personaje",obj_slash,{image_angle:point_direction(x,y,x+x_to,y+y_to)});
+	}
 }
-
-//if !(puede_moverse)
-//{
-//	x_to = 0;
-//	y_to = 0;
-//}
-
 
 // Inherit the parent event
 event_inherited();
