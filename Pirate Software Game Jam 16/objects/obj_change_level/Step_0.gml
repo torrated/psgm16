@@ -9,5 +9,5 @@ if (instance_exists(obj_controles)
 	if (obj_player.vidas > 0)
 		room_goto(obj_juego.next_room);
 	else
-		room_goto(Level1); // DEBUG: esto tiene que ser la pantalla de inicio
+		room_goto(StartRoom);
 }

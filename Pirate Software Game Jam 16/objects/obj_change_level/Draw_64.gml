@@ -17,13 +17,23 @@ if (instance_exists(obj_juego))
 	}
 	else
 	{
-		var _font = draw_get_font();
-		draw_set_font(fnt_silom);
-		draw_text(100,100,"You failed");
-		if (instance_exists(obj_player) && (obj_player.vidas > 0))
-			draw_text(100,200,"play again " + string(room_get_name(obj_juego.next_room)));
+		if (room == StartRoom)
+		{
+			var _font = draw_get_font();
+			draw_set_font(fnt_silom);
+			draw_text(500,700,"press SPACE to start");
+			draw_set_font(_font);
+		}
 		else
-			draw_text(100,200,"Game Over");
-		draw_set_font(_font);
+		{
+			var _font = draw_get_font();
+			draw_set_font(fnt_silom);
+			draw_text(100,100,"You failed");
+			if (instance_exists(obj_player) && (obj_player.vidas > 0))
+				draw_text(100,200,"play again " + string(room_get_name(obj_juego.next_room)));
+			else
+				draw_text(100,200,"Game Over");
+			draw_set_font(_font);
+		}
 	}
 }
