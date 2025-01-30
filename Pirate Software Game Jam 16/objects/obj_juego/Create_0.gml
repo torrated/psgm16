@@ -2,9 +2,9 @@
 
 //puntos_por_nivel = {};
 puntos_por_nivel = {
-	"Room1" : 1,
-	"Room2" : 2
+	"Level1" : 0,//DEBUG
+	"Level2" : 2
 };
 
-previous_room = Room1;
-next_room = Room1;
+previous_room = Level1;
+next_room = Level1;

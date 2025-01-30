@@ -11,8 +11,8 @@
   "name":"obj_item_reloj",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"items",
+    "path":"folders/Objects/items.yy",
   },
   "parentObjectId":null,
   "persistent":false,
