@@ -1,5 +1,6 @@
 /// @description 
-if (puede_moverse)
+
+if ((estado <> ESTADOS_POSIBLES.MUERTO) && (puede_moverse))
 {
 	var _len = 0;
 	var _sqr_x = 0;
@@ -12,12 +13,12 @@ if (puede_moverse)
 	if (_sqr_x + _sqr_y <> 0)
 	    _len = sqrt(_sqr_x + _sqr_y);
 
-	if (_len <> 0)
+	if (_len >= 1)
 	{
 	    x_to = (x_to/_len) * velocidad;
 	    y_to = (y_to/_len) * velocidad;
     
-	    move_and_collide(x_to,y_to,obj_colisiones,velocidad * 2);
+	    move_and_collide(x_to,y_to,[obj_colisiones,obj_enemigo],velocidad * 2);
 	}
 
 	// actualiza los sprites en funcion de la direccion

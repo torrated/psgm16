@@ -1,6 +1,6 @@
 /// @description 
 
-if ((instance_exists(obj_controles)) && puede_moverse)
+if (instance_exists(obj_controles) && puede_moverse)
 {
     x_to = obj_controles.move_x;
     y_to = obj_controles.move_y;
@@ -23,7 +23,7 @@ if ((instance_exists(obj_controles)) && puede_moverse)
 		image_speed = 1;
 	}
 		
-	if (obj_controles.atacar)
+	if ((obj_controles.atacar) && (estado <> ESTADOS_POSIBLES.MUERTO))
 	{
 		var _slash = instance_create_layer(x,y,"Personaje",obj_slash,{image_angle:point_direction(x,y,x+x_to,y+y_to)});
 	}

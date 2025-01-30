@@ -1,6 +1,7 @@
 /// @description 
 
-velocidad_caminar = 2.5;
+velocidad_caminar_inicial = 2.5;
+velocidad_caminar = velocidad_caminar_inicial;
 velocidad_correr = velocidad_caminar * 2;
 velocidad = 0;
 corriendo = 0;
@@ -16,3 +17,12 @@ knockback_actual = 0;
 knockback_x = 0;
 knockback_y = 0;
 golpeado = false;
+puntos = 0;
+damage = 1;
+
+enum ESTADOS_POSIBLES
+{
+    NORMAL,
+	MUERTO
+};
+estado = ESTADOS_POSIBLES.NORMAL;

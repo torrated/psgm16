@@ -4,18 +4,18 @@ if (object_index <> other.object_index)
 {
 	if (object_index == obj_player)
 	{
-		salud -= 1;
+		salud -= other.damage;
 		if (salud <= 0)
 		{
 			vidas -= 1;
-			if (vidas >= 1)
+			x = xstart;
+			y = ystart;
+			if (instance_exists(obj_juego))
 			{
-				x = xstart;
-				y = ystart;
-				room_restart();
+				obj_juego.previous_room = room;
+				obj_juego.next_room = room;
+				room_goto(RoomChangeLevel);
 			}
-			else
-				prc_game_over();
 		}
 	}
 }

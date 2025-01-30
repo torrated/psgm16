@@ -15,16 +15,20 @@ if (instance_exists(obj_controles) && (obj_controles.debug))
            draw_circle(_enemigo.x, _enemigo.y, _enemigo.distancia_oido, true);
 		   
 		   if (instance_exists(obj_player))
-	           if !(collision_line(_enemigo.x, _enemigo.y, obj_player.x, obj_player.y,obj_colisiones,false,false))
+	           if (!(collision_line(_enemigo.x, _enemigo.y, obj_player.x, obj_player.y,obj_colisiones,false,false))
+					&& _enemigo.puede_ver)
 			   {
 	               draw_set_color(c_blue);
 				   draw_line(_enemigo.x, _enemigo.y, obj_player.x, obj_player.y); //linea de vision
 			   }
-           	draw_text(_enemigo.x, _enemigo.y-10, "knockback_x:"+string(_enemigo.knockback_x))
-			draw_text(_enemigo.x, _enemigo.y-20, "knockback_y:"+string(_enemigo.knockback_y))
-			draw_text(_enemigo.x, _enemigo.y-30, "knockback_actual:"+string(_enemigo.knockback_actual))
+           	draw_text(_enemigo.x, _enemigo.y-10, "salud:"+string(_enemigo.salud))
 
            draw_set_color(_color);
        }
    }
+   
+	if (instance_exists(obj_player))
+	{
+		draw_text(obj_player.x,obj_player.y-10,"salud:"+string(obj_player.salud));
+	}
 }
