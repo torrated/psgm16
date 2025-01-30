@@ -11,3 +11,6 @@ if ((object_index == obj_player) && (instance_exists(obj_inicio)))
 }
 velocidad_caminar = velocidad_caminar_inicial;
 velocidad_correr = velocidad_caminar * 2;
+
+if (room <> RoomChangeLevel)
+	puede_moverse = true;

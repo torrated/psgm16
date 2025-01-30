@@ -12,6 +12,7 @@ if (object_index <> other.object_index)
 			y = ystart;
 			if (instance_exists(obj_juego))
 			{
+				obj_player.puede_moverse = false;
 				obj_juego.previous_room = room;
 				obj_juego.next_room = room;
 				room_goto(RoomChangeLevel);
