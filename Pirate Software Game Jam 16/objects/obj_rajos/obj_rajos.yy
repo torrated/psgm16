@@ -1,13 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_hit",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_rajos",
+  "eventList":[],
   "managed":true,
-  "name":"obj_hit",
+  "name":"obj_rajos",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
