@@ -8,6 +8,7 @@ if (other.image_alpha > 0.8)
 		{
 			obj_player.puntos += puntos;
 			ds_list_add(obj_explosion.enemigos_alcanzados,id);
+			instance_create_layer(x,y,"Rayos",obj_rajos);
 		}
 		
 		estado = ESTADOS_POSIBLES.MUERTO;

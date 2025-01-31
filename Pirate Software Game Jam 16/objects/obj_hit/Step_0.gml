@@ -5,3 +5,5 @@ if (instance_exists(character))
 	x = character.x;
 	y = character.y;
 }
+else
+	instance_destroy();
