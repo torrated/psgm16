@@ -20,4 +20,5 @@ while (_nuevo_item == 0)
 }
 
 instance_create_layer(x,y,"Items",_items_elegibles[_nuevo_item]);
+audio_play_sound(snd_caja,1,false,1,undefined,random_range(0.9,1.1))
 instance_destroy();
