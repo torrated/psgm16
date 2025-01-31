@@ -28,7 +28,7 @@ else
 							instancias[_i].image_alpha
 							);
 	}
-	if (instance_exists(obj_niebla))
+	if (instance_exists(obj_niebla) && niebla_existe)
 		draw_sprite(spr_niebla,0,x_niebla,y_niebla);
 
 }
