@@ -28,6 +28,7 @@ if (instance_exists(obj_controles) && puede_moverse)
 		var _slash = instance_create_layer(x,y,"Personaje",obj_slash,{image_angle:point_direction(x,y,x+x_to,y+y_to)});
 		if (y_to == 0 && x_to == 0)
 			_slash.image_xscale = image_xscale;
+		audio_play_sound(snd_slash,1,false,1,undefined,random_range(0.9,1.1));
 	}
 }
 
